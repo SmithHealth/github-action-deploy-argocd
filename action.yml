@@ -357,6 +357,7 @@ runs:
         max_attempts: ${{ inputs.commit-retry-count }}
         timeout_seconds: ${{ inputs.commit-timeout }}
         retry_wait_seconds: ${{ inputs.commit-retry-interval }}
+        on_retry_command: sleep $((RANDOM % ${{ inputs.commit-retry-interval }}))
         shell: bash
         command: |-
           set -e
