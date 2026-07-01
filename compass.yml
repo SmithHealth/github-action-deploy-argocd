@@ -1,0 +1,16 @@
+name: github-action-deploy-argocd
+id: ari:cloud:compass:45098346-acb2-49e5-8728-5de1791c3d8b:component/038e10e3-523b-4b16-a4f1-d06fd262f52b/e0dd79a4-d43b-4fd7-8048-274d4c2e7443
+description: Deploy on Kubernetes with Helm/Helmfile and ArgoCD
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/SmithHealth/github-action-deploy-argocd
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields: null
